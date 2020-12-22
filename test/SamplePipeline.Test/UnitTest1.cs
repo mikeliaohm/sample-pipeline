@@ -12,7 +12,7 @@ namespace SamplePipeline.Test
         public void GetReturnsMyName() 
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Mike", returnValue.Value);
+            Assert.Equal("something", returnValue.Value);
         }
 
         [Fact]
